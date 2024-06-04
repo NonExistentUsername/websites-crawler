@@ -35,6 +35,4 @@ CREATE TABLE websites (
 );
 ```
 
-psql postgresql://postgres:bcf8cd1cde6347fe@94537961.xyz:6543/sites
-
 Taken from https://github.com/conaticus/search-engine-crawler/tree/dev
