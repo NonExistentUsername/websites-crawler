@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "crawler"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Maior <mayor4090Gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+getsitemap = "^0.1.5"
+tika = "^2.6.0"
+random-header-generator = "^1.2"
+aiohttp = {extras = ["speedups"], version = "^3.9.5"}
+aiodns = "^3.2.0"
+python-dotenv = "^1.0.1"
+bitsandbytes = "0.42"
+torch = "^2.2.2"
+psycopg2-binary = "^2.9.9"
+psycopg = "^3.1.18"
+aiopg = "1.4.0"
+beautifulsoup4 = "^4.12.3"
+redis = "^5.0.3"
+sentence-transformers = "^2.7.0"
+einops = "^0.7.0"
+openai = "^1.23.2"
+onnxruntime = "^1.17.3"
+psutil = "^5.9.8"
+text2text = "^1.4.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
